@@ -67,7 +67,7 @@ int main() {
       for (col = 0; col < c; ++col) {
         // in MNIST 0 is white and 255 is black
         // in PGM 0 is black and the max value is white
-        fprintf(pgm, "%03d ", 255-img[row*c+col]);
+        fprintf(pgm, "%3d ", 255-img[row*c+col]);
       }
       fprintf(pgm, "\n");
     }

@@ -51,7 +51,7 @@ int main() {
   printf("number of cols: %d\n", i);
   c = i;
 
-  char *img = malloc(sizeof(char)*r*c);
+  unsigned char *img = malloc(sizeof(char)*r*c);
   
   for (i = 0; i < n; ++i) {
     FILE *pgm;
